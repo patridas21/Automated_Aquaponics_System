@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AQM</string>
+    <string name="air_humidity">AIR HUMIDITY : </string>
+    <string name="air_temp">AIR TEMPERATURE : </string>
+    <string name="basil_moist">BASIL MOIST : </string>
+    <string name="lettuce_moist">LETTUCE MOIST : </string>
+    <string name="onion_moist">ONION MOIST : </string>
+    <string name="water_ph">WATER PH : </string>
+    <string name="water_temp">WATER TEMPERATURE : </string>
+    <string name="check">LATEST</string>
+    <string name="check1">HISTORY</string>
+    <string name="per"> %</string>
+    <string name="cel"> ºC</string>
+
+</resources>

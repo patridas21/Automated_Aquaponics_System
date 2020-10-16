@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#33FFC4">
+    <!--android:background="@drawable/logo"-->
+
+    <!--androidx.constraintlayout.widget.ConstraintLayout-->
+
+    <!--
+        <ProgressBar
+            style="?android:progressBarStyleHorizontal"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="131dp"
+            android:layout_marginTop="360dp"
+            android:layout_marginEnd="130dp"
+            android:layout_marginBottom="241dp"
+            android:progress="80"
+            android:progressDrawable="@drawable/circle">
+
+        </ProgressBar>
+      -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/myRecycler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/myRecycler1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <Button
+            android:id="@+id/checkDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="550dp"
+            android:layout_marginBottom="65dp"
+            android:text="@string/check"
+            android:textStyle="bold|italic"
+            android:textColor="#33C7FF"
+            android:background="@android:color/black"
+            android:visibility="visible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/checkDetails1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="550dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="65dp"
+            android:text="@string/check1"
+            android:textSize="14sp"
+            android:textStyle="bold|italic"
+            android:textColor="#33C7FF"
+            android:background="@android:color/black"
+            android:visibility="visible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </RelativeLayout>
+
